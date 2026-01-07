@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+/* Common Style */
+.btn {
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/* Common Style */
+
 .open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -14,7 +27,8 @@ Header area
 ============================================== */
 
 header {
-    background: #FFF8F3;
+    background: #a9159a;
+    padding-top: 50px;
 }
 
 nav {
@@ -26,11 +40,28 @@ nav {
     align-items: center;
 }
 
+.logo {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.logo>h3>span {
+    color: #FD6E0A;
+}
+
 nav>ul {
     display: flex;
+    align-items: center;
     gap: 51px;
 }
 
 nav>ul>li {
     list-style: none;
+}
+
+nav>ul>li>a {
+    font-size: 20px;
+    font-weight: normal;
+    color: #474747;
+    text-decoration: none;
 }
